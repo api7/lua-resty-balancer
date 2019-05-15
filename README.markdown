@@ -234,6 +234,12 @@ path, as in
 Ensure that the system account running your Nginx ''worker'' proceses have
 enough permission to read the `.lua` and `.so` file.
 
+It can be install by `luarocks` too, like this:
+
+```shell
+$ luarocks install lua-resty-balancer
+```
+
 [Back to TOC](#table-of-contents)
 
 Performance
