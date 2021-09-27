@@ -16,7 +16,6 @@ build = {
    type = "builtin",
    modules = {
       ["librestychash"] = {"chash.c"},
-
       ["resty.chash"] = "lib/resty/chash.lua",
       ["resty.roundrobin"] = "lib/resty/roundrobin.lua",
       ["resty.balancer.utils"] = "lib/resty/balancer/utils.lua",
